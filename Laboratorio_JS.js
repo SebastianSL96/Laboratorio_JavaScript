@@ -49,9 +49,9 @@ usernum = prompt (" Digita cualquier numero real ");
 usernumFloat = parseFloat(usernum);
 if (usernumFloat > 0 ) {
     console.log (" Su numero es positivo ")
-} if (usernumFloat = 0 ) {
+} else if (usernumFloat = 0 ) {
     console.log (" Su numero es cero ")
-} if (usernumFloat < 0 ) {
+} else if (usernumFloat < 0 ) {
     console.log (" Su numero es negativo ")
 } else {
     console.log (" Error ")
